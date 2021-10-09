@@ -25,6 +25,14 @@ for word in data:
 		new.append(word)
 print('共有', len(new), '筆留言小於100字')
 
+good = []
+for word in data:
+	if 'good' in word:
+		good.append(word)
+print('共有', len(good), '筆留言提到good')
+print(good[0])
+
+
 
 
 """
